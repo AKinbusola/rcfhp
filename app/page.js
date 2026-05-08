@@ -225,13 +225,13 @@ export default function RCFCampusLandingPage() {
             />
 
             <img
-              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/main/uniform.jpg"
+              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/main/uniform.png"
               alt="RCF Uniform"
               className="rounded-[32px] h-[260px] object-cover w-full -mt-10"
             />
 
             <img
-              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/main/iup_evangel.jpg"
+              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/main/iup_evangel.png"
               alt="RCF Evangelism"
               className="rounded-[32px] h-[260px] object-cover w-full" 
             />
