@@ -207,23 +207,27 @@ export default function RCFCampusLandingPage() {
 
           <div className="grid grid-cols-2 gap-5">
             <img
-              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/221484d234a303473ddd74b8f393406aeef8b7f5/IMG_9819.jpg"
+              src="/IMG_9819.jpg"
+              alt="RCF Students"
               className="rounded-[32px] h-[260px] object-cover w-full"
             />
 
             <img
-              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/221484d234a303473ddd74b8f393406aeef8b7f5/A7409729.jpg"
+              src="/A7409729.jpg"
+              alt="RCF Worship"
               className="rounded-[32px] h-[260px] object-cover w-full mt-12"
             />
 
             <img
-              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/221484d234a303473ddd74b8f393406aeef8b7f5/uniform.jpg"
+              src="/uniform.jpg"
+              alt="RCF Uniform"
               className="rounded-[32px] h-[260px] object-cover w-full -mt-10"
             />
 
             <img
-              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/221484d234a303473ddd74b8f393406aeef8b7f5/iup_evangel.jpg"
-              className="rounded-[32px] h-[260px] object-cover w-full"
+              src="/iup_evangel.jpg"
+              alt="RCF Evangelism"
+              className="rounded-[32px] h-[260px] object-cover w-full" 
             />
           </div>
         </div>
@@ -332,14 +336,14 @@ export default function RCFCampusLandingPage() {
       <footer className="border-t border-white/10 bg-black/20 backdrop-blur-2xl">
         <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col lg:flex-row justify-between gap-10 items-center">
           <div>
-            <h3 className="text-3xl font-black mb-3">
-               <img
+             
+               <img  
                 src="https://images.squarespace-cdn.com/content/v1/67494eee59c5d57a039ec568/e6a99f5d-c03d-45dd-a4d6-0c830e74d7fb/full-color-logo-horizontal-light.png?format=1500w"
-                alt="RCF CAMPUS" style="float: right; width: 120px; height: auto;" 
+                alt="RCF CAMPUS"  className="w-[120px] h-auto float-right"
                 
               />
               
-              </h3>
+              
             <p className="text-white/50 max-w-md">
               To Know Christ and Make Him Known on Every Campus.
             </p>
