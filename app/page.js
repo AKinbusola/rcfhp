@@ -233,45 +233,49 @@ export default function RCFCampusLandingPage() {
         </div>
       </section>
 
-      {/* Experiences */}
-      <section className="relative z-10 max-w-7xl mx-auto px-6 py-28">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <p className="uppercase tracking-[0.35em] text-purple-300 text-sm mb-5">
-            What We Do
-          </p>
+{/* Experiences */}
+<section className="relative z-10 max-w-7xl mx-auto px-6 py-28">
+  <div className="text-center max-w-3xl mx-auto mb-16">
+    <p className="uppercase tracking-[0.35em] text-purple-300 text-sm mb-5">
+      What We Do
+    </p>
 
-          <h2 className="text-5xl md:text-6xl font-black leading-tight mb-6">
-            Building Revival On Campus.
-          </h2>
+    <h2 className="text-5xl md:text-6xl font-black leading-tight mb-6">
+      Building Revival On Campus.
+    </h2>
 
-          <p className="text-white/65 text-lg leading-relaxed">
-            Through worship, discipleship, outreach, and leadership development, students are equipped to impact their campuses for Christ.
-          </p>
+    <p className="text-white/65 text-lg leading-relaxed">
+      Through worship, discipleship, outreach, and leadership development,
+      students are equipped to impact their campuses for Christ.
+    </p>
+  </div>
+
+  <div className="grid lg:grid-cols-2 gap-6">
+    {experiences.map((item, index) => (
+      <div
+        key={item.title}
+        className="bg-white/5 border border-white/10 rounded-[32px] p-10 backdrop-blur-xl hover:bg-white/10 transition duration-500"
+      >
+        <div className="flex items-start justify-between gap-8">
+          <div>
+            <h3 className="text-3xl font-black mb-5">
+              {item.title}
+            </h3>
+
+            <p className="text-white/65 text-lg leading-relaxed max-w-xl">
+              {item.desc}
+            </p>
+          </div>
+
+          <div className="text-6xl font-black text-white/10">
+            {String(index + 1).padStart(2, '0')}
+          </div>
         </div>
-
-        <div className="grid lg:grid-cols-2 gap-6">
-          {experiences.map((item) => (
-            <div
-              key={item.title}
-              className="bg-white/5 border border-white/10 rounded-[32px] p-10 backdrop-blur-xl hover:bg-white/10 transition duration-500"
-            >
-              <div className="flex items-start justify-between gap-8">
-                <div>
-                  <h3 className="text-3xl font-black mb-5">{item.title}</h3>
-                  <p className="text-white/65 text-lg leading-relaxed max-w-xl">
-                    {item.desc}
-                  </p>
-                </div>
-
-                <div className="text-6xl font-black text-white/10">
-                  0{experiences.indexOf(item) + 1}
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
+      </div>
+    ))}
+  </div>
+</section>
+     
       {/* Campuses */}
       <section className="relative z-10 py-24 bg-gradient-to-r from-[#0b1020] to-[#0b1228] border-y border-white/10">
         <div className="max-w-7xl mx-auto px-6 text-center">
@@ -334,27 +338,55 @@ export default function RCFCampusLandingPage() {
 
       {/* Footer */}
       <footer className="border-t border-white/10 bg-black/20 backdrop-blur-2xl">
-        <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col lg:flex-row justify-between gap-10 items-center">
-          <div>
-             
-               <img  
-                src="https://images.squarespace-cdn.com/content/v1/67494eee59c5d57a039ec568/e6a99f5d-c03d-45dd-a4d6-0c830e74d7fb/full-color-logo-horizontal-light.png?format=1500w"
-                alt="RCF CAMPUS"  className="w-[120px] h-auto float-right"
-                
-              />
-              
-              
-            <p className="text-white/50 max-w-md">
-              To Know Christ and Make Him Known on Every Campus.
-            </p>
-          </div>
+      <div className="flex flex-col items-center lg:items-start gap-4">
+  <img
+    src="https://images.squarespace-cdn.com/content/v1/67494eee59c5d57a039ec568/e6a99f5d-c03d-45dd-a4d6-0c830e74d7fb/full-color-logo-horizontal-light.png?format=1500w"
+    alt="RCF Campus Logo"
+    className="w-[160px] h-auto"
+  />
+
+  <p className="text-white/50 max-w-md text-center lg:text-left">
+    To Know Christ and Make Him Known on Every Campus.
+  </p>
+</div>
 
           <div className="flex flex-wrap gap-6 text-white/60">
-            <a href="https://www.instagram.com/rcfcampus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="hover:text-white transition">Instagram</a>
-            <a href="https://www.youtube.com/@RCFCAMPUS" className="hover:text-white transition">YouTube</a>
-            <a href="https://chat.whatsapp.com/IWDnXK6Y5ca3SzQ3BtVqRN" className="hover:text-white transition">Whatsapp</a>
-            <a href="mailto:rcfcampus@gmail.com" className="hover:text-white transition">Contact</a>
-          </div>
+                  <a
+  href="https://www.youtube.com/@RCFCAMPUS"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white transition"
+>
+  YouTube
+</a>
+
+    <a
+  href="https://www.instagram.com/rcfcampus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white transition"
+>
+  Instagram
+</a>
+
+     <a
+  href="https://chat.whatsapp.com/IWDnXK6Y5ca3SzQ3BtVqRN"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white transition"
+>
+  Whatsapp
+</a>
+
+     <a
+  href="mailto:rcfcampus@gmail.com" 
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:text-white transition"
+>
+  Contact
+</a>
+
         </div>
       </footer>
     </div>
