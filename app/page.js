@@ -213,25 +213,25 @@ export default function RCFCampusLandingPage() {
 
           <div className="grid grid-cols-2 gap-5">
             <img
-              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/221484d234a303473ddd74b8f393406aeef8b7f5/IMG_9819.jpg"
+              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/main/IMG_9819.jpg"
               alt="RCF Students"
               className="rounded-[32px] h-[260px] object-cover w-full"
             />
 
             <img
-              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/221484d234a303473ddd74b8f393406aeef8b7f5/A7409729.jpg"
+              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/main/A7409729.jpg"
               alt="RCF Worship"
               className="rounded-[32px] h-[260px] object-cover w-full mt-12"
             />
 
             <img
-              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/221484d234a303473ddd74b8f393406aeef8b7f5/uniform.jpg"
+              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/main/uniform.jpg"
               alt="RCF Uniform"
               className="rounded-[32px] h-[260px] object-cover w-full -mt-10"
             />
 
             <img
-              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/221484d234a303473ddd74b8f393406aeef8b7f5/iup_evangel.jpg"
+              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/main/iup_evangel.jpg"
               alt="RCF Evangelism"
               className="rounded-[32px] h-[260px] object-cover w-full" 
             />
