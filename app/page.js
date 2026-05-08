@@ -23,7 +23,7 @@ export default function RCFCampusLandingPage() {
 
   const experiences = [
     {
-      title: 'Weekly Fellowship',
+      title: 'Build Local Campus Fellowship',
       desc: 'Spirit-filled gatherings with worship, teaching, prayer, and connection.'
     },
     {
@@ -52,7 +52,7 @@ export default function RCFCampusLandingPage() {
       <header className="sticky top-0 z-50 border-b border-white/10 backdrop-blur-2xl bg-black/20">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
           <div>
-            <h1 className="font-black text-2xl tracking-wide">RCF CAMPUS</h1>
+            <h1 className="font-black text-2xl tracking-wide">REDEEMED CAMPUS FELLOWSHIP</h1>
           </div>
 
           <nav className="hidden lg:flex items-center gap-8 text-sm text-white/70">
@@ -67,6 +67,7 @@ export default function RCFCampusLandingPage() {
           <button className="bg-white text-black px-5 py-3 rounded-full font-semibold hover:scale-105 transition duration-300">
             Join RCF
           </button>
+          
         </div>
       </header>
 
@@ -90,7 +91,7 @@ export default function RCFCampusLandingPage() {
             </h2>
 
             <p className="text-lg md:text-xl text-white/70 leading-relaxed max-w-2xl mb-10">
-              RCF Campus is a Christ-centered student movement committed to revival, discipleship, evangelism, leadership, and transforming college campuses through the power of Jesus Christ.
+              RCF is a Christ-centered student movement committed to revival, discipleship, evangelism, leadership, and transforming college campuses through the power of Jesus Christ.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-14">
@@ -105,7 +106,7 @@ export default function RCFCampusLandingPage() {
 
             <div className="flex flex-wrap gap-10">
               <div>
-                <h3 className="text-4xl font-black">25+</h3>
+                <h3 className="text-4xl font-black">50+</h3>
                 <p className="text-white/50 text-sm mt-2">Campus Chapters</p>
               </div>
 
@@ -127,7 +128,7 @@ export default function RCFCampusLandingPage() {
 
             <div className="relative bg-white/10 border border-white/10 rounded-[40px] p-5 backdrop-blur-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1600&auto=format&fit=crop"
+                src="https://raw.githubusercontent.com/AKinbusola/rcfhp/221484d234a303473ddd74b8f393406aeef8b7f5/IMG_9881.jpg"
                 alt="Students worshipping"
                 className="rounded-[28px] w-full h-[620px] object-cover"
               />
@@ -136,7 +137,7 @@ export default function RCFCampusLandingPage() {
                 <div className="flex items-center justify-between gap-6">
                   <div>
                     <p className="text-white/60 text-sm mb-2">Upcoming Experience</p>
-                    <h3 className="text-2xl font-black">FIRE Conference 2026</h3>
+                    <h3 className="text-2xl font-black">FIRE Conference 2026: Back to the Basics</h3>
                     <p className="text-white/70 mt-1">Revival • Worship • Prayer • Encounter</p>
                   </div>
 
@@ -186,7 +187,7 @@ export default function RCFCampusLandingPage() {
             </h2>
 
             <p className="text-lg text-white/70 leading-relaxed mb-8">
-              RCF Campus exists to raise students who passionately pursue Christ, live boldly for the Gospel, and bring revival to campuses across the nation.
+              RCF exists to raise students who passionately pursue Christ, live boldly for the Gospel, and bring revival to campuses across the nation.
             </p>
 
             <div className="space-y-5">
@@ -206,22 +207,22 @@ export default function RCFCampusLandingPage() {
 
           <div className="grid grid-cols-2 gap-5">
             <img
-              src="https://images.unsplash.com/photo-1529390079861-591de354faf5?q=80&w=1200&auto=format&fit=crop"
+              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/221484d234a303473ddd74b8f393406aeef8b7f5/IMG_9819.jpg"
               className="rounded-[32px] h-[260px] object-cover w-full"
             />
 
             <img
-              src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1200&auto=format&fit=crop"
+              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/221484d234a303473ddd74b8f393406aeef8b7f5/A7409729.jpg"
               className="rounded-[32px] h-[260px] object-cover w-full mt-12"
             />
 
             <img
-              src="https://images.unsplash.com/photo-1515165562835-c4c4a7f3b4e7?q=80&w=1200&auto=format&fit=crop"
+              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/221484d234a303473ddd74b8f393406aeef8b7f5/uniform.jpg"
               className="rounded-[32px] h-[260px] object-cover w-full -mt-10"
             />
 
             <img
-              src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+              src="https://raw.githubusercontent.com/AKinbusola/rcfhp/221484d234a303473ddd74b8f393406aeef8b7f5/iup_evangel.jpg"
               className="rounded-[32px] h-[260px] object-cover w-full"
             />
           </div>
@@ -331,17 +332,24 @@ export default function RCFCampusLandingPage() {
       <footer className="border-t border-white/10 bg-black/20 backdrop-blur-2xl">
         <div className="max-w-7xl mx-auto px-6 py-12 flex flex-col lg:flex-row justify-between gap-10 items-center">
           <div>
-            <h3 className="text-3xl font-black mb-3">RCF CAMPUS</h3>
+            <h3 className="text-3xl font-black mb-3">
+               <img
+                src="https://images.squarespace-cdn.com/content/v1/67494eee59c5d57a039ec568/e6a99f5d-c03d-45dd-a4d6-0c830e74d7fb/full-color-logo-horizontal-light.png?format=1500w"
+                alt="RCF CAMPUS" style="float: right; width: 120px; height: auto;" 
+                
+              />
+              
+              </h3>
             <p className="text-white/50 max-w-md">
               To Know Christ and Make Him Known on Every Campus.
             </p>
           </div>
 
           <div className="flex flex-wrap gap-6 text-white/60">
-            <a href="#" className="hover:text-white transition">Instagram</a>
-            <a href="#" className="hover:text-white transition">YouTube</a>
-            <a href="#" className="hover:text-white transition">TikTok</a>
-            <a href="#" className="hover:text-white transition">Contact</a>
+            <a href="https://www.instagram.com/rcfcampus?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="hover:text-white transition">Instagram</a>
+            <a href="https://www.youtube.com/@RCFCAMPUS" className="hover:text-white transition">YouTube</a>
+            <a href="https://chat.whatsapp.com/IWDnXK6Y5ca3SzQ3BtVqRN" className="hover:text-white transition">Whatsapp</a>
+            <a href="mailto:rcfcampus@gmail.com" className="hover:text-white transition">Contact</a>
           </div>
         </div>
       </footer>
